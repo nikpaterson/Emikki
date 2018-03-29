@@ -19,4 +19,9 @@ describe 'Prototype App' do
     expect(last_response.body).to include "Emikki"
   end
   
+  it 'displays the correct content' do 
+    get '/'
+    expect(last_response.body).to include "See our new Spring/Summer '18 collection"
+  end
+  
 end
