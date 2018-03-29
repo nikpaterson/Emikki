@@ -8,3 +8,15 @@ body {
   border: solid 2px #555B6E;
   color: #89B0AE;
 }
+
+.navbar {
+  color: #FFD6BA;
+}
+
+.hidden {
+  display: none;
+}
+
+header h2 {
+  font-family: Montserrat;
+}
