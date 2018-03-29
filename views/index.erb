@@ -21,8 +21,8 @@
       
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Women <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">Men</a></li>
+          <li id="women" class="active"><a href="#">Women <span class="sr-only">(current)</span></a></li>
+          <li id="men"><a href="#">Men</a></li>
           <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gifts <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -64,8 +64,8 @@
     <div class="row">
       <div class="col-md-3"></div>
       <div class="col-md-6">
-        <div class="jumbotron">
-          <div class="about">
+        <div class="jumbotron" id="content">
+          <div class="women">
             <h1>Emikki</h1>
              <h2>See our new Spring/Summer '18 collection</h2>
           </div>
@@ -79,18 +79,24 @@
     <div class="row">
       <div class="col-md-3"></div>
       <div class="col-md-6">
-        <div class="jumbotron">
-          <div class="about">
+        <div class="jumbotron" id="content">
+          <div class="women">
             <p>
             Welcome to the launch of our website, with a brand new look and feel helping you find what you're looking for faster. We've gone for a minimalist take on the legendary (but cluttered) ASOS design, which we feel offers an enhanced user experience. Although we highly doubt you will, should you encounter any issues whilst using the site, please direct yourself to the 'Contact Us' button (if it works). Thanks for visiting!
             </p>
             <p><i>An EByr and NPatz creation</i></p>
           </div>
-        </div>        
+          <div class="men hidden">
+           <h2>Our Top Secret Offers</h2>
+            <img src="http://www.applemount.co.uk/images/products2/Discount%20Object%20Collectors%20Item%20OBJDOBBI%203%204%20DRESS%2086%20Black%20Cheap%20Online%20UK%202372.jpg" class="img-responsive img-rounded"></img>
+          </div>
+        </div>
       </div>
       <div class="col-md-3"></div>
     </div>
   </div>
   
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="/javascript/app.js"></script>
   </body>
 </html>
